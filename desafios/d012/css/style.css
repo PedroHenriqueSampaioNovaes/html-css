@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Passion One';
+  src: url(../font/PassionOne-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Sriracha';
+  src: url(../font/Sriracha-Regular.ttf) format('truetype');
+}
+
+:root {
+  --font1: Verdana, Geneva, Tahoma, sans-serif;
+  --font2: 'Passion One', cursive;
+  --font3: 'Sriracha', cursive;
+}
+
+/* Estilos Gerais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font1);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+cite {
+  font-style: normal;
+}
+
+p {
+  font-family: var(--font3);
+}
+
+/* Cabeçalho */
+header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header p {
+  font-family: var(--font1);
+}
+
+#titulo {
+  font-size: 10vw;
+  font-family: var(--font2);
+  font-variant: small-caps;
+}
+
+/* Conteúdo */
+section {
+  padding: 70px 30px;
+}
+
+section p {
+  font-size: 3.5vw;
+  line-height: 2em;
+  padding-bottom: 2em;
+}
+
+/* Conteúdo com Imagem */
+.imagem {
+  color: #fff;
+}
+
+.imagem p {
+  display: inline-block;
+  background: rgb(0, 0, 0, 0.500);
+  padding: 5px;
+}
+
+#img1 {
+  background: url(../img/background001.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+#img2 {
+  background: url(../img/background002.jpg) no-repeat fixed;
+}
+
+/* Rodapé */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-family: var(--font1);
+}
